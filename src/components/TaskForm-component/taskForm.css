@@ -1,11 +1,9 @@
-.nota{
+.notaMadre{
     width: 312px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: inline-block;
     margin-bottom: 2.5%;
 }
+
 .containerSuperior{
     width: 100%;
     background-color: #FFF599;
@@ -25,14 +23,14 @@
     display: flex;
     width: 312px;
 }
-#contenidoNota{
+.contenidoNota{
     background-color: transparent;
     border: 0px;
     resize:none;
     width: 100%;
     font-size: large;
     border-radius: 8px;
-    height: 100%;
+    height: 175px;
 }
 
 textarea::-webkit-scrollbar {
@@ -48,7 +46,7 @@ textarea::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
-#contenidoNota:focus{
+.contenidoNota:focus{
     background-color: rgba(0, 0, 0, 0.15);
     outline: none;
 }
@@ -64,12 +62,18 @@ textarea::-webkit-scrollbar-thumb {
 .iconoNota{
     width: 25px;
 }
+.buttonIcon{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
 .notaInferior{
     width: 100%;
     height: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #FFF599;
     border-top: 0px;
     padding-left: 2%;
@@ -101,16 +105,4 @@ textarea::-webkit-scrollbar-thumb {
     border-bottom: 20px solid #FFF599;
 }
 
-.triangulo2{
-    border-right: 20px solid transparent;
-    border-top: 20px solid transparent;
-    border-left: 20px solid #FF8282;
-    border-bottom: 20px solid #FF8282;
-}
 
-.triangulo3{
-    border-right: 20px solid transparent;
-    border-top: 20px solid transparent;
-    border-left: 20px solid #9CBBE9;
-    border-bottom: 20px solid #9CBBE9;
-}

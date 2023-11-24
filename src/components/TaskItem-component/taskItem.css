@@ -1,0 +1,28 @@
+.nota{
+    width: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.5%;
+}
+.checkbox{
+    width: 23px;
+    height: 23px;
+}
+.description{
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4a4a4a;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
